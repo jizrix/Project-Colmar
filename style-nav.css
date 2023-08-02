@@ -11,7 +11,10 @@ nav{
 .logo{
     display: flex;
     align-items: center;
+    max-height: 32px;
+    height: auto;
     color: var(--default-text-color);
+    outline: 1px solid seagreen;
 }
 
 .logo img{
