@@ -1,0 +1,100 @@
+.course--box{
+    width: 100%;
+    outline: 1px solid rgb(73, 22, 13);
+    background-color: #EAEBEC;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 72px;
+}
+
+.course--header{
+    outline: 1px solid rgb(14, 161, 46);
+    display: flex;
+    justify-content: center;
+}
+
+.course--header h2{
+    font-size: 2rem;
+    color: var(--default-text-color);
+}
+
+.card--box{
+    outline: 1px solid darkblue;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card--container{
+    outline: 3px solid rgb(6, 112, 3);
+    width: 30%;
+    background-color: white;
+}
+
+.card--image img{
+    width: 100%;
+}
+
+.card--detail{
+    
+    padding: 16px 16px 24px 16px;
+}
+
+.card--detail h3{
+    font-size: 1.5rem;
+}
+
+.card--detail .detail--course{
+    font-size: 1rem;
+    padding: 8px 0;
+}
+
+.card--detail .detail--text{
+    font-size: 1rem;
+}
+
+.course--box--mobile{
+    display: none;
+}
+
+@media screen and (max-width: 425px){
+    .course--box{
+        display: none;
+    }
+
+    .course--box--mobile{
+        display: flex;
+        flex-direction: column;
+        outline: 1px solid rgb(4, 255, 109);
+        padding: 32px 16px;
+    }
+
+    .course--mobile--header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: 0 0 8px 0;
+        outline: 1px solid sandybrown;
+        color: var(--default-text-color);
+    }
+
+    .course--mobile--header h3{
+        font-size: 2rem;
+        outline: 1px solid aquamarine;
+    }
+
+    .choice--box button{
+        width: 100%;
+        padding: 16px 0 24px 16px;
+        margin-top: 8px;
+        color: var(--default-text-color);
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: none;
+        text-align: left;
+    }
+
+    
+}
