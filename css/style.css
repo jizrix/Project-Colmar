@@ -29,3 +29,26 @@ a:visited{
     color: var(--default-text-color);
 }
 
+.footer--section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: #f3f5f5;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right p{
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer-right{
+        display: none;
+    }
+    
+}
