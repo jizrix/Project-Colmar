@@ -2,6 +2,8 @@
 
 :root{
     --default-text-color:#4A4A4A;
+    --default-hero-bg-color:#D8D8D8;
+    --default-button-hover:#9B9B9B;
 }
 
 *{
@@ -9,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;  
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .project{
