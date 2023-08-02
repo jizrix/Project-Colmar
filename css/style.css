@@ -17,7 +17,6 @@
 
 .project{
     max-width: 1440px;
-    outline: 1px solid tomato;
     margin: auto;
 }
 
@@ -50,5 +49,4 @@ a:visited{
     .footer-right{
         display: none;
     }
-    
 }

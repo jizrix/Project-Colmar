@@ -15,7 +15,6 @@ nav{
     max-height: 32px;
     height: auto;
     color: var(--default-text-color);
-    outline: 1px solid seagreen;
 }
 
 .logo img{
@@ -51,7 +50,6 @@ nav{
     .mobile--nav{
         width: 100%;
         display: flex;
-        outline: 1px solid salmon;
         max-height: 64px;
         height: 64px;
     }
@@ -62,12 +60,10 @@ nav{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        outline: 1px solid turquoise;
     }
 
     .mobile--nav li{
         list-style: none;
-        outline: 1px dotted gold;
         width: 8%;
     }
 

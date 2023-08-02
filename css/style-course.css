@@ -1,6 +1,5 @@
 .course--box{
     width: 100%;
-    outline: 1px solid rgb(73, 22, 13);
     background-color: #EAEBEC;
     display: flex;
     flex-direction: column;
@@ -8,7 +7,6 @@
 }
 
 .course--header{
-    outline: 1px solid rgb(14, 161, 46);
     display: flex;
     justify-content: center;
 }
@@ -19,7 +17,6 @@
 }
 
 .card--box{
-    outline: 1px solid darkblue;
     margin-top: 32px;
     display: flex;
     flex-direction: row;
@@ -27,7 +24,6 @@
 }
 
 .card--container{
-    outline: 3px solid rgb(6, 112, 3);
     width: 30%;
     background-color: white;
 }
@@ -66,7 +62,6 @@
     .course--box--mobile{
         display: flex;
         flex-direction: column;
-        outline: 1px solid rgb(4, 255, 109);
         padding: 32px 16px;
     }
 
@@ -76,13 +71,11 @@
         justify-content: center;
         width: 100%;
         padding: 0 0 8px 0;
-        outline: 1px solid sandybrown;
         color: var(--default-text-color);
     }
 
     .course--mobile--header h3{
         font-size: 2rem;
-        outline: 1px solid aquamarine;
     }
 
     .choice--box button{
